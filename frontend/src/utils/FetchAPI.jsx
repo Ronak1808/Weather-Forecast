@@ -33,7 +33,7 @@ export async function fetchWeatherData(input) {
     }
 }
 export async function fetchForecast(input) {
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=d62f6c66193f44ebba2112833240607&q=${input}&days=5`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=d62f6c66193f44ebba2112833240607&q=${input}&days=5`;
 
     try {
       const response = await fetch(url);
