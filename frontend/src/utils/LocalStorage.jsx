@@ -1,5 +1,5 @@
 export const token_key = 'WEATHER_FORECAST_TOKEN'
-export const API_BASE_URL= "http://localhost:3001/"
+export const API_BASE_URL= "https://weather-forecast-api-ronak.vercel.app/"
 
 export const setToken = (token) => {
   window.localStorage.setItem(token_key, token);
