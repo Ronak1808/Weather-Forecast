@@ -46,7 +46,7 @@ function Homepage({ setIsFav, isFav }) {
   };
 
   const handleCityClick = (city) => {
-    setQuery({ q: city.split(",")[0] });
+    setQuery({ q: city});
     setIsFav(false);  // Close the sidebar after selecting a city
   };
 
